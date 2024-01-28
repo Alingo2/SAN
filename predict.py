@@ -254,7 +254,7 @@ def pre_download():
         DefaultTrainer.build_model(cfg)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  #修改测试
     from argparse import ArgumentParser
 
     parser = ArgumentParser()
